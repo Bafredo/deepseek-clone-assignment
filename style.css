@@ -1,20 +1,41 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, "Roboto";
     font-size: 14px;
 }
+#overall-top{
+    background-image: url('./background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1% 1% 1% 1%;
+}
 .head{
-    width: 96%;
+    width: 94%;
     padding-top: 15px;
     padding-left: 2%;
     padding-right: 2%;
+    padding-bottom: 15px;
+    border: 1px solid rgb(77, 107, 254);
+    border-radius: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    background-color: rgba(228, 2, 2, 0.131);
 }
-.logo img{
-    width: 15%;
+.logo{
+    display: flex;
+}
+.logo p{
+    font-size: 28px;
+    font-weight: 900;
+}
+.deep{
+    color: rgb(77, 107, 254);
+}
+.seek{
+
 }
 .api_lang{
     display: flex;
@@ -35,29 +56,27 @@
     padding-left: 2px;
 }
 #lang{
-    color: rgb(148, 163, 184);
+    color: rgb(0, 0, 0);
 }
 .feat{
     height: 62vh;
-    background-image: url('./banner-background.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    padding-top: 70px;
 }
 .line1{
-    margin-top: 70px;
+    margin-top: 0px;
     width: 100%;
     display: flex;
     justify-content: center;
-    color: rgb(148, 163, 184);
+    color: rgb(9, 24, 45);
 }
 .title{
     margin-top: 70px;
     width: 100%;
     text-align: center;
 }
-.title svg{
-    width: 320px;
+#title-name{
+    font-size: 64px;
+    color: rgb(77, 107, 254);
 }
 .title p{
     margin-top: 20px;
